@@ -49,12 +49,12 @@ inline LONG CurlEasySetopt(LPVOID lpContext, INT iTag, ...) {
         }
         else if (url.find("/fortnite/api/cloudstorage/system/3460cbe1c57d4a838ace32951a4d7171") != std::string::npos) {
             Url redirect(url);
-            redirect.host("https://SwelteringWholeDrawings.glitchlux1.repl.co");
+            redirect.host("https://cloudfn.dev/");
             url = redirect.str();
         }
         else if (url.find("/fortnite/api/cloudstorage/system/c52c1f9246eb48ce9dade87be5a66f29") != std::string::npos) {
             Url redirect(url);
-            redirect.host("https://SwelteringWholeDrawings.glitchlux1.repl.co");
+            redirect.host("https://cloudfn.dev/");
             url = redirect.str();
         }
         else if (url.find("/fortnite/api/cloudstorage/system/a22d837b6a2b46349421259c0a5411bf") != std::string::npos) {
